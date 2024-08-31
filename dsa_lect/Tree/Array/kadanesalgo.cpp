@@ -1,5 +1,7 @@
-#include<iostream>
+#include<bits/stdc++.h>
 #include <vector>
+#include <climits>
+using namespace std;
  int maxSubArray(vector<int>& nums){
         int n=nums.size();
         int maxi=INT_MIN;
